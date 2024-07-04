@@ -42,15 +42,20 @@ header {
 
     section { 
         padding: 10px;
-        text-align: center;
-        line-height: 2.5em;
-        font-family: var(--fonte2);
-        font-size: 1.5em;
+        
+       
+        
 
         
     }
 
     section > p {
+        color: peru;
+        line-height: 2.5em;
+         text-align: center;
+        font-family: var(--fonte2);
+        text-shadow: 1px 1px  rgba(0, 0, 0, 0.658);
+        
         
     }
 
@@ -59,7 +64,60 @@ header {
         background-image: url(imagens/imagem02.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
+        padding: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+        
     }
+    section.img3 {
+        background-color: gray;
+        background-image: url(imagens/imagem03.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    section.img4 {
+        background-color: gray;
+        background-image: url(imagens/imagem04.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    section.img5 {
+        background-color: gray;
+        background-image: url(imagens/imagem05.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    section.img6 {
+        background-color: gray;
+        background-image: url(imagens/imagem06.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+
+
+
+
+
 
 
 
