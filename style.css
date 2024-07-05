@@ -16,11 +16,19 @@
     padding: 0px;
 }
 
+main {
+    max-width: 300px;
+    min-width: 330px;
+    margin: auto;
+    background-color: white;
+
+}
+
 html, body {
     min-height: 100vh;
-    background-color: white;
+    background-color: peru;
     margin: auto;
-    max-width: 400px;
+    
 }
 
 header {
@@ -31,41 +39,32 @@ header {
     background-color: gray;
     height: 300px;
     text-align: center;
-    
-    
-
 }
 
     header > h1 {
         font-family: 'cordel';
-        padding-top: 35px;
-    
-        
-        
-        
-
+        padding-top: 30px;
     }
 
     section { 
         padding: 10px;
         background-attachment: fixed;
+        background-size: cover;
         border: solid;
-        margin: 10px;
-        
-        
+        margin: 10px;  
+        height:250px; 
        
-        
-
-        
     }
 
     section > p {
         color: peru;
-        line-height: 2.5em;
+        padding-top: 10px;
          text-align: center;
+         line-height: 4em;
         font-family: var(--fonte2);
         text-shadow: 1px 1px  rgba(0, 0, 0, 0.658);
-        
+        font-size: 0.8em;
+       
         
     }
 
@@ -74,20 +73,17 @@ header {
         background-image: url(imagens/imagem02.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 15px;
-        padding-left: 100px;
-        padding-right: 100px;
+        height: 150px;
         
+       
     }
     section.img3 {
         background-color: gray;
         background-image: url(imagens/imagem03.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 15px;
-        padding-left: 100px;
-        padding-right: 100px;
-
+        padding-bottom: 50px;
+        
     }
 
     section.img4 {
@@ -95,10 +91,7 @@ header {
         background-image: url(imagens/imagem04.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 15px;
-        padding-left: 100px;
-        padding-right: 100px;
-
+       padding-bottom: 50px;
     }
 
     section.img5 {
@@ -106,10 +99,8 @@ header {
         background-image: url(imagens/imagem05.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 15px;
-        padding-left: 100px;
-        padding-right: 100px;
-
+        height: 250px;
+       
     }
 
     section.img6 {
@@ -117,12 +108,9 @@ header {
         background-image: url(imagens/imagem06.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding: 15px;
-        padding-left: 100px;
-        padding-right: 100px;
-
+        height: 250px;
     }
-
+        
 
 div.fundo {
     background-color: gray;
@@ -130,8 +118,6 @@ div.fundo {
     background-position: 100% 100%;
     background-size: cover;
     height: 117px;
-    
-
 }
 
 div.fundo02 {
@@ -140,8 +126,6 @@ div.fundo02 {
     background-position: 100% 100%;
     background-size: cover;
     height: 117px;
-    
-
 }
 div.fundo03 {
     background-color: gray;
@@ -149,8 +133,6 @@ div.fundo03 {
     background-position: 100% 100%;
     background-size: cover;
     height: 117px;
-    
-
 }
 
 div.fundo04 {
@@ -159,7 +141,6 @@ div.fundo04 {
     background-position: 100% 100%;
     background-size: cover;
     height: 117px;
-
 }
 
 div.fundo05 {
@@ -168,9 +149,15 @@ div.fundo05 {
     background-position: 100% 100%;
     background-size: cover;
     height: 117px;
-    
-
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
 
 
 
