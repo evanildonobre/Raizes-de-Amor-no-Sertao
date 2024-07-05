@@ -21,12 +21,15 @@ main {
     min-width: 330px;
     margin: auto;
     background-color: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.418);
+    border-radius: 0px 0px 10px 10px ;
+    
 
 }
 
 html, body {
     min-height: 100vh;
-    background-color: peru;
+    background-color: rgba(205, 134, 63, 0.884);
     margin: auto;
     
 }
@@ -47,8 +50,7 @@ header {
     }
 
     section { 
-        padding: 10px;
-        background-attachment: fixed;
+        padding: 40px;
         background-size: cover;
         border: solid;
         margin: 10px;  
@@ -57,12 +59,12 @@ header {
     }
 
     section > p {
-        color: peru;
-        padding-top: 10px;
+        color: rgb(218, 130, 42);
+        padding-top: 0px;
          text-align: center;
-         line-height: 4em;
+         line-height: 2em;
         font-family: var(--fonte2);
-        text-shadow: 1px 1px  rgba(0, 0, 0, 0.658);
+        text-shadow: 1px 1px 0px  rgba(0, 0, 0, 0.705);
         font-size: 0.8em;
        
         
@@ -73,16 +75,32 @@ header {
         background-image: url(imagens/imagem02.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 150px;
+        height: 180px;
+        
+        
         
        
     }
     section.img3 {
         background-color: gray;
         background-image: url(imagens/imagem03.jpeg);
-        background-size: 100% 100%;
+       background-size: 100% 100%;
         background-repeat: no-repeat;
-        padding-bottom: 50px;
+        height: 180px;
+        
+        
+        
+    }
+    section.img3 > p {
+        position: absolute;
+        margin-top: -15px;
+        display: flex;
+        align-items: flex-start;
+        padding-right: 68px;
+        
+        
+        
+        
         
     }
 
@@ -91,24 +109,34 @@ header {
         background-image: url(imagens/imagem04.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-       padding-bottom: 50px;
+        height: 180px;
     }
+
+            section.img4 > p {
+                margin-top: -15px;
+            }
 
     section.img5 {
         background-color: gray;
         background-image: url(imagens/imagem05.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 250px;
+        height: 180px;
        
     }
+
+        section.img5 > p {
+            position: absolute;
+            margin-top: 0px;
+            padding-right: 90px;
+        }
 
     section.img6 {
         background-color: gray;
         background-image: url(imagens/imagem06.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 250px;
+        height: 180px;
     }
         
 
@@ -116,39 +144,46 @@ div.fundo {
     background-color: gray;
     background-image: url(imagens/zfundo.jpg);
     background-position: 100% 100%;
-    background-size: cover;
-    height: 117px;
+    background-size:contain;
+    height: 90px;
+    background-attachment: fixed;
+    
+    
 }
 
 div.fundo02 {
     background-color: gray;
     background-image: url(imagens/zfundo03.jpg);
-    background-position: 100% 100%;
-    background-size: cover;
+    background-position: 100% 100;
+    background-size:contain;
     height: 117px;
+    background-attachment: fixed;
 }
 div.fundo03 {
     background-color: gray;
     background-image: url(imagens/zfundo01.jpg);
     background-position: 100% 100%;
-    background-size: cover;
+    background-size:contain;
     height: 117px;
+    background-attachment: fixed;
 }
 
 div.fundo04 {
     background-color: gray;
     background-image: url(imagens/zfundo04.jpg);
     background-position: 100% 100%;
-    background-size: cover;
+    background-size:contain;
     height: 117px;
+    background-attachment: fixed;
 }
 
 div.fundo05 {
     background-color: gray;
     background-image: url(imagens/zfundo02.jpg);
     background-position: 100% 100%;
-    background-size: cover;
+    background-size:contain;
     height: 117px;
+    background-attachment: fixed;
 }
 
 footer {
