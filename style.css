@@ -18,12 +18,13 @@
 
 main {
     max-width: 300px;
-    min-width: 330px;
+    min-width: 380px;
     margin: auto;
     background-color: white;
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.418);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.658);
     border-radius: 0px 0px 10px 10px ;
-    
+    margin-bottom: 30px;
+    padding-bottom: 20px;
 
 }
 
@@ -39,14 +40,15 @@ header {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: gray;
+    background-color: white;
     height: 300px;
     text-align: center;
 }
 
     header > h1 {
         font-family: 'cordel';
-        padding-top: 30px;
+        padding-top: 25px;
+        font-size: 35px;
     }
 
     section { 
@@ -62,38 +64,46 @@ header {
         color: rgb(218, 130, 42);
         padding-top: 0px;
          text-align: center;
-         line-height: 2em;
+         line-height: 3em;
         font-family: var(--fonte2);
         text-shadow: 1px 1px 0px  rgba(0, 0, 0, 0.705);
-        font-size: 0.8em;
+        font-size: 1em;
        
         
     }
 
     section.img2 {
-        background-color: rgba(92, 117, 117, 0.39);
+        background-color: white;
         background-image: url(imagens/imagem02.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 180px;
+        background-size: cover 100%;
+        background-attachment: fixed;
+        background-position: center center;
+        
+        
         
         
         
        
     }
     section.img3 {
-        background-color: gray;
+        background-color: white;
         background-image: url(imagens/imagem03.jpeg);
        background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 180px;
+        background-size: cover 100%;
+        background-attachment: fixed;
+        background-position: center center;
         
         
         
     }
     section.img3 > p {
         position: absolute;
-        margin-top: -15px;
+        margin-top: -30px;
         display: flex;
         align-items: flex-start;
         padding-right: 68px;
@@ -105,85 +115,109 @@ header {
     }
 
     section.img4 {
-        background-color: gray;
+        background-color: white;
         background-image: url(imagens/imagem04.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 180px;
+        background-size: cover 100%;
+        background-attachment: fixed;
+        background-position: center center;
     }
 
             section.img4 > p {
-                margin-top: -15px;
+                position: absolute;
+                margin-top: -40px;
+                padding-top: 30px;
+
             }
 
     section.img5 {
-        background-color: gray;
+        background-color:  white;
         background-image: url(imagens/imagem05.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 180px;
+        background-size: cover 100%;
+        background-attachment: fixed;
+        background-position: center center;
        
     }
 
-        section.img5 > p {
+        section.img6 > p {
             position: absolute;
-            margin-top: 0px;
+            margin-top: -30px;
             padding-right: 90px;
+            
+            
         }
 
     section.img6 {
-        background-color: gray;
+        background-color: white;
         background-image: url(imagens/imagem06.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         height: 180px;
+        background-size: cover 100%;
+        background-attachment: fixed;
+        background-position: center center;
+        margin-bottom: 20px;
     }
         
 
 div.fundo {
-    background-color: gray;
+    background-color:  white;
     background-image: url(imagens/zfundo.jpg);
     background-position: 100% 100%;
     background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 90px;
-    background-attachment: fixed;
+    
     
     
 }
 
 div.fundo02 {
-    background-color: gray;
+    background-color: white;
     background-image: url(imagens/zfundo03.jpg);
     background-position: 100% 100;
     background-size:contain;
-    height: 117px;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    
 }
 div.fundo03 {
-    background-color: gray;
+    background-color:  white;
     background-image: url(imagens/zfundo01.jpg);
     background-position: 100% 100%;
     background-size:contain;
-    height: 117px;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    
 }
 
 div.fundo04 {
-    background-color: gray;
+    background-color: white;
     background-image: url(imagens/zfundo04.jpg);
     background-position: 100% 100%;
-    background-size:contain;
-    height: 117px;
-    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    
 }
 
 div.fundo05 {
-    background-color: gray;
+    background-color:  white;
     background-image: url(imagens/zfundo02.jpg);
     background-position: 100% 100%;
     background-size:contain;
-    height: 117px;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
 }
 
 footer {
